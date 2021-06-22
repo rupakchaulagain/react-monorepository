@@ -3,15 +3,15 @@ import {Button, InputText, Table} from "@batman/ui-components";
 import './App.css';
 
 function App() {
-  return (
-      <div className="App">
+    return (
+        <div className="App">
+            <h1>Internet</h1>
+            <Button/>
+            <InputText/>
+            <Table/>
 
-          <Button/>
-          <InputText/>
-          <Table/>
-
-      </div>
-  );
+        </div>
+    );
 }
 
 export default App;
